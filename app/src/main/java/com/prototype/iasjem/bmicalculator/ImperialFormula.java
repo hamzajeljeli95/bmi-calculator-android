@@ -21,6 +21,7 @@ public class ImperialFormula {
         return inputM;
     }
 
+    //This formula will calculate BMI
     public double computeBMI(double kg, double m) {
         double result=0;
 

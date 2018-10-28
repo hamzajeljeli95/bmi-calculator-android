@@ -9,9 +9,10 @@ import static org.junit.Assert.*;
  *
  * @see <a href="http://d.android.com/tools/testing">Testing documentation</a>
  */
-public class ExampleUnitTest {
+public class FunctionsUnitTest {
     @Test
-    public void addition_isCorrect() throws Exception {
-        assertEquals(4, 2 + 2);
+    public void isFormulmasCorrect() throws Exception {
+        MetricFormula formula = new MetricFormula(61,1.89);
+        assertEquals(17.1,Math.round(formula.computeBMI()*100)/100 ,1);
     }
 }

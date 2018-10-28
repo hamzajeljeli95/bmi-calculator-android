@@ -14,5 +14,14 @@
     <string name="content_show_result"> </string>
     <string name="content_show_bmi"> </string>
     <string name="content_user_answer">Key your weight as Kg</string>
+    <string name="bmi">BMI =</string>
+    <string name="m1">very severely underweight</string>
+    <string name="m2">severely underweight</string>
+    <string name="m3">underweight</string>
+    <string name="m4">normal (healthy weight)</string>
+    <string name="m5">overweight</string>
+    <string name="m6">moderately obese</string>
+    <string name="m7">severely obese</string>
+    <string name="m8">very severely obese</string>
 
 </resources>

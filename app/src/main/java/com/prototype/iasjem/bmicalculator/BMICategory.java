@@ -1,25 +1,27 @@
 package com.prototype.iasjem.bmicalculator;
 
+import android.content.Context;
+
 public class BMICategory {
 
-    public String getCategory(double result) {
+    public String getCategory(Context m, double result) {
         String category;
         if (result < 15) {
-            category = "very severely underweight";
+            category = m.getString(R.string.m1);
         } else if (result >= 15 && result <= 16) {
-            category = "severely underweight";
+            category = m.getString(R.string.m2);
         } else if (result > 16 && result <= 18.5) {
-            category = "underweight";
+            category = m.getString(R.string.m3);
         } else if (result > 18.5 && result <= 25) {
-            category = "normal (healthy weight)";
+            category = m.getString(R.string.m4);
         } else if (result > 25 && result <= 30) {
-            category = "overweight";
+            category = m.getString(R.string.m5);
         } else if (result > 30 && result <= 35) {
-            category = "moderately obese";
+            category = m.getString(R.string.m6);
         } else if (result > 35 && result <= 40) {
-            category = "severely obese";
+            category = m.getString(R.string.m7);
         } else {
-            category = "very severely obese";
+            category = m.getString(R.string.m8);
         }
         return category;
     }

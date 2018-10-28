@@ -17,8 +17,8 @@ public class MetricFormula {
         return inputM;
     }
 
-    public double computeBMI(double kg, double m) {
-        return kg / (Math.pow(m, 2));
+    public double computeBMI() {
+        return inputKg / (Math.pow(inputM,2));
     }
 
 }
